@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="nasmineFavGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="50%" stop-color="#8B263E" />
+      <stop offset="100%" stop-color="#C5A059" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle with soft luxury fill -->
+  <circle cx="24" cy="24" r="23" fill="#FFFBF5" stroke="url(#nasmineFavGrad)" stroke-width="1.5" />
+  
+  <!-- Outer dashed decorative ring -->
+  <circle cx="24" cy="24" r="20" stroke="#C5A059" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.65" />
+
+  <!-- Jasmine Petals -->
+  <!-- Top Petal -->
+  <path d="M24 7 C21 13 19 18 24 24 C29 18 27 13 24 7 Z" fill="url(#nasmineFavGrad)" />
+  <!-- Bottom Petal -->
+  <path d="M24 41 C21 35 19 30 24 24 C29 30 27 35 24 41 Z" fill="url(#nasmineFavGrad)" />
+  <!-- Left Petal -->
+  <path d="M7 24 C13 21 18 19 24 24 C18 29 13 27 7 24 Z" fill="url(#nasmineFavGrad)" />
+  <!-- Right Petal -->
+  <path d="M41 24 C35 21 30 19 24 24 C30 29 35 27 41 24 Z" fill="url(#nasmineFavGrad)" />
+
+  <!-- Diagonal Petals -->
+  <path d="M12 12 C17 16 20 19 24 24 C19 20 16 17 12 12 Z" fill="#C5A059" opacity="0.85" />
+  <path d="M36 12 C31 16 28 19 24 24 C29 20 32 17 36 12 Z" fill="#C5A059" opacity="0.85" />
+  <path d="M12 36 C17 32 20 29 24 24 C19 28 16 31 12 36 Z" fill="#C5A059" opacity="0.85" />
+  <path d="M36 36 C31 32 28 29 24 24 C29 28 32 31 36 36 Z" fill="#C5A059" opacity="0.85" />
+
+  <!-- Center Floral Core & Jewel -->
+  <circle cx="24" cy="24" r="3.5" fill="#FFFFFF" stroke="#8B263E" stroke-width="1.2" />
+  <polygon points="24,21.5 26.5,24 24,26.5 21.5,24" fill="#C5A059" />
+</svg>
